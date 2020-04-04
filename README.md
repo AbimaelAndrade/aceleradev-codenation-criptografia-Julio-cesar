@@ -46,3 +46,13 @@ https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=SEU_TOKEN
 
 OBS: a API espera um arquivo sendo enviado como __multipart/form-data__, como se fosse enviado por um formulário HTML, 
 com um campo do tipo file com o nome __answer__. Considere isso ao enviar o arquivo.
+
+## Como rodar o projeto
+
+* crie um aquivo ```.env```na raiz do projeto com as seguintes variáveis
+```js
+API_URL=https://api.codenation.dev/v1/challenge/dev-ps
+TOKEN=seu_token
+```
+* Agora instale as devenpendias do projto com o comando ```npm install```
+* Agora é só rodar o projeto com: ```node run start```
